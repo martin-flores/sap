@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Maintain table</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Selection criteria</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>DOWNLOAD_TEMPLATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Download Excel template</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>DROP_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Drop table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>GET_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get table fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>ON_ADDED_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update table from Excel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>SHOW_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show ALV with data from Excel file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>SHOW_DYNAMIC_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show dynamic selection screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>SHOW_SE16N</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show SE16N</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MAINTAIN_TABLE</CLSNAME>
+     <CMPNAME>UPLOAD_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload exce file to update table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
