@@ -8,6 +8,8 @@
 
 REPORT z_maintain_table.
 DATA:
+
+
   o_maintain TYPE REF TO zcl_maintain_table,
   gv_ucomm TYPE syucomm.
 
